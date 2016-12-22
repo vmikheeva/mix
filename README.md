@@ -149,6 +149,9 @@ https://services.github.com/kit/downloads/github-git-cheat-sheet.pdf
 ### Git reference documentation
 https://git-scm.com/docs
 
+### Pro Git Book
+https://git-scm.com/book/en/v2
+
 ### Git simple guide
 http://rogerdudler.github.io/git-guide/
 
