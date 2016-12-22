@@ -45,6 +45,23 @@ git checkout main_branch
 
 git merge [dev_branch]
 
+### Rebasing on a branch
+git checkout experiment
+
+git rebase master
+
+// First, rewinding head to replay your work on top of it...
+
+// Applying: added staged command
+
+// Then, go back to master and do fast-forward merge:
+
+git checkout master
+
+git merge experiment
+
+https://git-scm.com/book/en/v2/Git-Branching-Rebasing
+
 ## Additional commands
 ### List existent branches and see the active branch
 git branch
