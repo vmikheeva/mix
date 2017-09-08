@@ -5,6 +5,9 @@
 
 ## Basic dev-process scenarious with git commands
 
+### View current configuration 
+git config --list
+
 ### Configure your user credentials to be used by default in git commands
 git config --global user.name "your name"
 
