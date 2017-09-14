@@ -26,7 +26,9 @@ git clone --recursive https://github.com/username/RepoName.git
 or
 
 git clone https://github.com/username/RepoName.git
+
 cd RepoName
+
 git submodule update --init --recursive
 
 ### Create new feature-branch
