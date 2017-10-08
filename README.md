@@ -1,8 +1,3 @@
-## Master
-## =======
-## Branch A
-
-
 ## Content
 * Basic dev-process scenarious with git commands
 * Additional commands
