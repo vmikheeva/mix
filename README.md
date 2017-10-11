@@ -8,6 +8,9 @@
 ### View current configuration 
 git config --list
 
+// Example output: Notepad++ settings as an editor
+core.editor='C:/Program Files/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin
+
 ### Configure your user credentials to be used by default in git commands
 git config --global user.name "your name"
 
