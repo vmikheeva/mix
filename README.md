@@ -8,6 +8,8 @@
 ### View current configuration 
 git config --list
 
+git config --global --list
+
 // Example output: Notepad++ settings as an editor
 
 core.editor='C:/Program Files/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin
@@ -16,6 +18,8 @@ core.editor='C:/Program Files/Notepad++/notepad++.exe' -multiInst -notabbar -nos
 git config --global user.name "your name"
 
 git config --global user.email "your email"
+
+git config --global core.editor "'C:/Program Files/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"
 
 ### Start working with repository: clone repository to get the latest version of the integration branch
 git clone https://github.com/username/RepoName.git
